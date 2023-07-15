@@ -1,6 +1,3 @@
-// import React, { useRef } from "react";
-// import emailjs from "@emailjs/browser";
-
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
@@ -49,6 +46,7 @@ export const Contact = () => {
           required
           placeholder="your name"
           name="user_name"
+          className="w-full rounded-xl border border-solid border-slate-900 p-3 text-2xl text-black dark:border-none sm:text-3xl"
         />
         <input
           id="email"
@@ -56,6 +54,7 @@ export const Contact = () => {
           required
           placeholder="your email"
           name="user_email"
+          className="w-full rounded-xl border border-solid border-slate-900 p-3 text-2xl text-black dark:border-none sm:text-3xl"
         />
         <label htmlFor="subject"></label>
         <input
