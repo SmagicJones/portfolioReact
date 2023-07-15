@@ -16,7 +16,7 @@ export const Header = () => {
   let toggleMenu = menuState ? "flex" : "hidden";
   let buttonMenu = btnState ? "toggle-btn" : "";
   return (
-    <header className="sticky top-0 z-10 bg-green-500 text-white">
+    <header className="sticky top-0 z-10 bg-lime-500 text-white">
       <section className="mx-auto flex max-w-4xl items-center justify-between p-4">
           <a href="#me">
             <img src={boblogo} alt="" className="h-6" />

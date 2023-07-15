@@ -10,8 +10,8 @@ export const Me = () => {
       <article className="sm:w-1/2">
         <h2 className="max-w-md text-center text-4xl font-bold text-slate-900 dark:text-white sm:text-left sm:text-5xl">
           Hi I'm Bob, {" "} <br />
-          <span className="text-indigo-700 dark:text-indigo-300"> junior software developer 
-          </span> Ready for a new challenge
+          <span className="text-lime-500"> junior software developer 
+          </span> 
         </h2>
         <p className="mt-4 max-w-md text-center text-2xl text-slate-700 dark:text-slate-400 sm:text-left">
           This site is where I will showcase my projects and
@@ -35,7 +35,7 @@ export const Me = () => {
         </div>
         </p>
       </article>
-      <img src={me} alt="A picture of me complete with Northcoders hoodie" className="max-w-xs border rounded-full"/>
+      <img src={me} alt="A picture of me complete with Northcoders hoodie" className="max-w-xs border rounded-xl "/>
     </section>
   );
 };

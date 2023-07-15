@@ -6,12 +6,12 @@ import { Footer } from "./Footer";
 
 export const Main = () => {
   return (
-    <main className=" bg-lime-700">
+    <main className=" bg-yellow-700">
       <Me />
       <hr className="mx-auto bg-black dark:bg-white" />
-      <Projects/>
-      <hr className="mx-auto bg-black dark:bg-white" />
       <Skills/>
+      <hr className="mx-auto bg-black dark:bg-white" />
+      <Projects/>
       <hr className="mx-auto bg-black dark:bg-white" />
       <Contact/>
       <hr className="mx-auto bg-black dark:bg-white" />
