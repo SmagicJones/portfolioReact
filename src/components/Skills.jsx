@@ -22,7 +22,7 @@ export const Skills = () => {
         <h2 className="max-w-md text-center text-4xl font-bold text-slate-900 dark:text-white sm:text-left sm:text-5xl mb-8 flex">
           {/* My Skills */}
         </h2>
-        <div className="flex flex-col  lg:flex-row  mt-4 gap-4 bg-white p-4 rounded-xl max-w-100">
+        <div className="flex flex-wrap mt-4 gap-4 bg-white p-4 rounded-xl max-w-100 justify-center">
           {slides.map((skill) => {
             return (
               <div>
