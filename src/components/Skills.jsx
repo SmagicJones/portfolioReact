@@ -19,14 +19,14 @@ export const Skills = () => {
       className={`mb-12 flex scroll-mt-40 flex-col-reverse items-center justify-center gap-8 p-6 sm:flex-row widescreen:section-min-height tallscreen:section-min-height`}
     >
       <article className="">
-        <h2 className="max-w-md text-center text-4xl font-bold text-slate-900 dark:text-white sm:text-left sm:text-5xl mb-8">
+        <h2 className="max-w-md text-center text-4xl font-bold text-slate-900 dark:text-white sm:text-left sm:text-5xl mb-8 flex">
           {/* My Skills */}
         </h2>
-        <div className="flex mt-4 gap-4 bg-white p-4 rounded-xl max-w-100">
+        <div className="flex flex-col  lg:flex-row  mt-4 gap-4 bg-white p-4 rounded-xl max-w-100">
           {slides.map((skill) => {
             return (
               <div>
-                <img src={skill} alt="" className="w-24" />
+                <img src={skill} alt="" className="w-24 mx-auto flex-none md:flex-1" />
               </div>
             );
           })}
