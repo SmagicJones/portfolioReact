@@ -14,7 +14,7 @@ export const Projects = () => {
       <h2 className="mb-6 text-center text-4xl font-bold text-slate-900 dark:text-white sm:text-5xl">
         Projects
       </h2>
-      <ul className="mx-auto my-12 flex list-none items-center gap-8 flex-col max-w-lg">
+      <ul className="mx-auto my-12 flex list-none items-center gap-8 flex-wrap max-w-lg">
         {projects.map((project, i) => {
           return (
             <ProjectCard
